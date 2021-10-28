@@ -24,7 +24,6 @@ function guardaDatos(){
         var tr=a+1;
         var td=b+2;
         var select='tr:nth-of-type('+tr+') td:nth-of-type('+td+')';
-        alert(select);
         var casilla=document.querySelector(select);
         casilla.innerText=clase.asig;
         casilla.class=clase;
